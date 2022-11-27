@@ -1,21 +1,31 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Moja.master" AutoEventWireup="true" CodeFile="RejestracjaNowa.aspx.cs" Inherits="RejestracjaNowa" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="rejestracja.aspx.cs" Inherits="rejestracja" %>
 
-<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+<!DOCTYPE html>
 
-        <title>Rejestracja</title>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
     <style type="text/css">
         .auto-style1 {
-            text-align: center;
+            width: 68px;
         }
-        </style>
-</asp:Content>
-
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-
-     <h1 class="auto-style1">Rejestracja</h1>
-
-        <div>
-            <asp:MultiView ID="MultiView1" runat="server" ActiveViewIndex="0" OnActiveViewChanged="MultiView1_ActiveViewChanged">
+        .auto-style2 {
+            height: 31px;
+        }
+        .auto-style3 {
+            width: 68px;
+            height: 31px;
+        }
+        .auto-style4 {
+            height: 28px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    
+        <asp:MultiView ID="MultiView1" runat="server" ActiveViewIndex="0" OnActiveViewChanged="MultiView1_ActiveViewChanged">
             <asp:View ID="View1" runat="server">
                 <table align="center">
                     <tr>
@@ -195,6 +205,8 @@
                 </table>
             </asp:View>
         </asp:MultiView>
+    
     </div>
-</asp:Content>
-
+    </form>
+</body>
+</html>

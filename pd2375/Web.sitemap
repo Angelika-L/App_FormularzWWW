@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="" title="Home"  description="Home">
+      <siteMapNode url="Ankieta1.aspx" title="Ankieta"  description="Ankieta1" />
+      <siteMapNode url="Strona1_zMP.aspx" title="MasterPage"  description="Master page">
+  
+        <siteMapNode url="Strona2_zMP.aspx" title="Strona2"  description="strona2" />
+        <siteMapNode url="Strona3_zMP.aspx" title="Strona3"  description="strona3" >
+          <siteMapNode url="Strona4_zMP.aspx" title="Strona4"  description="strona4" />
+          <siteMapNode url="Strona5_zMP.aspx" title="Strona5"  description="strona5" />
+      </siteMapNode>
+        <siteMapNode url="Strona6_zMP.aspx" title="Strona6"  description="opis strony default" />
+    </siteMapNode>
+      </siteMapNode>
+</siteMap>

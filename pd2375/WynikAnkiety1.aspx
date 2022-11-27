@@ -14,13 +14,13 @@
         <br />
     
     </div>
-        
+
 
 <asp:label ID="Label3" runat="server" text="Label"></asp:label>
     <br />
     <br />
     <br />
-    <a href="Ankieta1.aspx">Powrot do ankiety</a><br />
+    <a href="Ankieta1.aspx">Ankieta1.aspx</a><br />
     
 
 
